@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Corpo Merece Saber | Ebooks Premium de Saúde e Bem-estar</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">🌿</span>
+                <span>Herhenbar Premium</span>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Seu Corpo Merece Saber</h1>
+            <p>Alimente seu corpo com o que é saudável. E sua mente com o que é verdadeiro.</p>
+            <a href="#produtos" class="btn">Explorar Produtos</a>
+            <a href="#contato" class="btn btn-outline">Fale Conosco</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="container">
+        <div class="section-title">
+            <h2>Estilo Premium + Estética</h2>
+            <p>Um Guia de Saúde Que Dá Gosto de Ler</p>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">✨</div>
+                <h3>Conhecimento Especializado</h3>
+                <p>Nossos ebooks são baseados em pesquisas e resultados reais.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🔬</div>
+                <h3>Baseado em Ciência</h3>
+                <p>Todas as nossas recomendações são apoiadas por pesquisas científicas.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🌱</div>
+                <h3>Abordagem Holística</h3>
+                <p>Acreditamos no equilíbrio entre corpo e mente para uma verdadeira transformação da saúde.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produtos" class="container">
+        <div class="section-title">
+            <h2>Nossos Ebooks Premium</h2>
+            <p>Conheça nossa seleção cuidadosamente elaborada de conteúdos para ajudar você a alcançar seus objetivos de saúde e bem-estar.</p>
+        </div>
+        <div class="products">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/images/detox-cover.jpg" alt="Guia Detox Completo">
+                </div>
+                <div class="product-info">
+                    <h3>Guia Detox Completo</h3>
+                    <p>Um ebook premium de 30 páginas com receitas exclusivas: 5 receitas low carb, 5 sucos detox, 5 caldos e sopas, mais 3 bônus de chás premium.</p>
+                    <div class="price-container">
+                        <span class="old-price">R$ 64,90</span>
+                        <span class="price">R$ 39,90</span>
+                    </div>
+                    <button class="btn" onclick="openModal('detoxModal')">Comprar Agora</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/images/ozempic-cover.jpg" alt="Guia Ozempic Completo">
+                </div>
+                <div class="product-info">
+                    <h3>Guia Ozempic Completo</h3>
+                    <p>73 páginas de informações valiosas sobre o medicamento, comparações, preços, onde adquirir, como evitar golpes e estudos científicos.</p>
+                    <div class="price-container">
+                        <span class="old-price">R$ 73,90</span>
+                        <span class="price">R$ 19,90</span>
+                    </div>
+                    <button class="btn" onclick="openModal('ozempicModal')">Comprar Agora</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/images/vinhos-cover.jpg" alt="A Casa do Vinho">
+                </div>
+                <div class="product-info">
+                    <h3>A Casa do Vinho</h3>
+                    <p>37 páginas sobre 10 rótulos selecionados e harmonizações exclusivas com pratos e petiscos. 5 destes rótulos estão entre os mais vendidos no Brasil em 2024.</p>
+                    <div class="price-container">
+                        <span class="old-price">R$ 54,90</span>
+                        <span class="price">R$ 28,90</span>
+                    </div>
+                    <button class="btn" onclick="openModal('vinhoModal')">Comprar Agora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Benefícios Exclusivos</h2>
+                <p>Descubra como nossos ebooks premium podem transformar seu conhecimento sobre saúde e bem-estar.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Mais Energia</h3>
+                    <p>Receitas que ajudam a revitalizar seu corpo e dar mais disposição.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🧠</div>
+                    <h3>Clareza Mental</h3>
+                    <p>Informações que te ajudam a tomar decisões mais conscientes.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🍽️</div>
+                    <h3>Alimentação Consciente</h3>
+                    <p>Aprenda a fazer escolhas alimentares mais saudáveis e balanceadas.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3>Conhecimento Valioso</h3>
+                    <p>Informações embasadas cientificamente para tomar as melhores decisões.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📚</div>
+                    <h3>Conteúdo Exclusivo</h3>
+                    <p>Informações cuidadosamente selecionadas que vão além do que se encontra gratuitamente.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎨</div>
+                    <h3>Design Premium</h3>
+                    <p>Layout elegante com texturas diferenciadas que elevam a experiência de leitura.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Depoimentos</h2>
+                <p>Veja o que nossos clientes estão dizendo sobre nossos produtos premium.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">As receitas do ebook Detox são surpreendentes! Nunca imaginei que algo tão saudável pudesse ser tão saboroso. A qualidade do conteúdo e o design premium fazem toda a diferença.</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="/api/placeholder/100/100" alt="Ana C.">
+                        </div>
+                        <div class="author-info">
+                            <h4>Ana C.</h4>
+                            <p>Cliente satisfeita</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">O Guia Ozempic Completo me ajudou a entender melhor esse medicamento. As informações são claras, precisas e me ajudaram a tomar decisões mais informadas junto ao meu médico.</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="/api/placeholder/100/100" alt="Roberto M.">
+                        </div>
+                        <div class="author-info">
+                            <h4>Roberto M.</h4>
+                            <p>Leitor assíduo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">A Casa do Vinho é um guia extraordinário! As harmonizações sugeridas são impecáveis e me ajudaram a apreciar ainda mais os bons vinhos. O design do ebook é simplesmente espetacular.</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="/api/placeholder/100/100" alt="Carla L.">
+                        </div>
+                        <div class="author-info">
+                            <h4>Carla L.</h4>
+                            <p>Entusiasta de vinhos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto para Elevar Seu Conhecimento?</h2>
+            <p>Dê o primeiro passo em direção a uma vida mais informada e saudável com nossos guias premium.</p>
+            <a href="#produtos" class="btn">Comece Hoje</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Herhenbar Premium</h3>
+                <p>Transformando vidas através de conteúdo exclusivo e conhecimento especializado em saúde e bem-estar.</p>
+                <div class="social-links">
+                    <a href="#"><span>FB</span></a>
+                    <a href="#"><span>IG</span></a>
+                    <a href="#"><span>TW</span></a>
+                    <a href="#"><span>YT</span></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Suporte</h3>
+                <ul>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Serviço</a></li>
+                    <li><a href="#">Garantia de 7 dias</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contato</h3>
+                <ul>
+                    <li>Email: contato@armonisse.com.br</li>
+                    <li>Telefone: (11) 95222-3060</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Herhenbar Premium. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Order Modals -->
+    <div id="detoxModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('detoxModal')">&times;</span>
+            <h3>Comprar Guia Detox Completo</h3>
+            <form id="detoxForm">
+                <div class="form-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <button type="submit" class="btn">Finalizar Compra - R$ 39,90</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="ozempicModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('ozempicModal')">&times;</span>
+            <h3>Comprar Guia Ozempic Completo</h3>
+            <form id="ozempicForm">
+                <div class="form-group">
+                    <label for="ozName">Nome Completo</label>
+                    <input type="text" id="ozName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="ozEmail">Email</label>
+                    <input type="email" id="ozEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="ozPhone">Telefone</label>
+                    <input type="tel" id="ozPhone" name="phone" required>
+                </div>
+                <button type="submit" class="btn">Finalizar Compra - R$ 19,90</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="vinhoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('vinhoModal')">&times;</span>
+            <h3>Comprar A Casa do Vinho</h3>
+            <form id="vinhoForm">
+                <div class="form-group">
+                    <label for="vinhoName">Nome Completo</label>
+                    <input type="text" id="vinhoName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="vinhoEmail">Email</label>
+                    <input type="email" id="vinhoEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="vinhoPhone">Telefone</label>
+                    <input type="tel" id="vinhoPhone" name="phone" required>
+                </div>
+                <button type="submit" class="btn">Finalizar Compra - R$ 28,90</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
